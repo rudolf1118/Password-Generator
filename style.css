@@ -67,6 +67,10 @@ body {
     border-radius: 8px;
 }
 
+#button1:active {
+    background: rgb(3, 1, 131);
+}
+
 #clock {
     color: white;
     margin: 3px;
