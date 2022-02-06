@@ -1,6 +1,9 @@
 window.onload = function() {
     window.setInterval(function() {
         var date = new Date();
+        var month = date.getMonth();
+        var year = date.getFullYear();
+        var day = date.getDate()
         var hours = date.getHours();
         var minute = date.getMinutes();
         var second = date.getSeconds();
@@ -13,8 +16,17 @@ window.onload = function() {
         if (second < 10) {
             second = "0" + second
         }
+        if (day < 10) {
+            day = "0" + day
+        }
+        if (month < 10) {
+            month = "0" + month
+        }
+
         var clock = hours + (":") + minute + (":") + second
+        var yearof = day + (":") + month + (":") + year
         document.getElementById("clock").innerHTML = clock;
+        document.getElementById("yearof").innerHTML = yearof
 
 
     });

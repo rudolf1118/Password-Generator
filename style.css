@@ -82,3 +82,15 @@ body {
     right: 10%;
     bottom: -250px
 }
+
+#yearof {
+    color: white;
+    margin: 3px;
+    font-weight: "Noto Serif";
+    font-size: 5vh;
+    position: relative;
+    top: 50%;
+    left: 155%;
+    right: -10%;
+    bottom: -175px
+}
