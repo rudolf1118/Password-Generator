@@ -1,96 +1,112 @@
-body {
-    background-image: url(image/back3.png);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "IBM Plex Sans Thai Looped";
-    user-select: none;
-}
-
-.password {
-    position: relative;
-    width: 450px;
-}
-
-.password h1 {
-    position: relative;
-    font-size: 30px;
-    color: rgb(255, 255, 255)
-}
-
-.password input {
-    position: relative;
-    width: 100%;
-    height: 60px;
-    border: none;
-    margin: 15px 0 20px;
-    outline: none;
-    padding: 0 20px;
-    font-size: 25px;
-    color: #333;
-    border-radius: 8px;
-}
-
-.password input::placeholder {
-    letter-spacing: 0px;
-}
-
-.password #btn {
-    position: relative;
-    cursor: pointer;
-    color: #fff;
-    background: #333;
-    font-size: 24px;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 8px;
-}
-
-.password #btn:active {
-    background: rgb(150, 5, 5);
-}
-
-#button1 {
-    position: relative;
-    cursor: pointer;
-    color: #fff;
-    background: #333;
-    font-size: 24px;
-    display: inline-block;
-    padding: 10px 15px;
-    border-radius: 8px;
-}
-
-#button1:active {
-    background: rgb(3, 1, 131);
-}
-
-#clock {
-    color: white;
-    margin: 3px;
-    font-weight: "Noto Serif";
-    font-size: 5vh;
-    position: relative;
-    top: 50%;
-    left: -110%;
-    right: 10%;
-    bottom: -250px
-}
-
-#yearof {
-    color: white;
-    margin: 3px;
-    font-weight: "Noto Serif";
-    font-size: 5vh;
-    position: relative;
-    top: 50%;
-    left: 155%;
-    right: -10%;
-    bottom: -170px
-}
+    body {
+        background-image: url(image/back3.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "IBM Plex Sans Thai Looped";
+        user-select: none;
+    }
+    
+    .password {
+        position: relative;
+        width: 450px;
+    }
+    
+    .password h1 {
+        position: relative;
+        font-size: 30px;
+        color: rgb(255, 255, 255)
+    }
+    
+    .password input {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        border: none;
+        margin: 15px 0 20px;
+        outline: none;
+        padding: 0 20px;
+        font-size: 25px;
+        color: #333;
+        border-radius: 8px;
+    }
+    
+    .password input::placeholder {
+        letter-spacing: 0px;
+    }
+    
+    .password #btn {
+        position: relative;
+        cursor: pointer;
+        color: #fff;
+        background: #333;
+        font-size: 24px;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+    
+    .password #btn:active {
+        background: rgb(150, 5, 5);
+    }
+    
+    #button1 {
+        position: relative;
+        cursor: pointer;
+        color: #fff;
+        background: #333;
+        font-size: 24px;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 8px;
+    }
+    
+    #button1:active {
+        background: rgb(3, 1, 131);
+    }
+    
+    #clock {
+        color: white;
+        margin: 3px;
+        font-weight: "Noto Serif";
+        font-size: 5vh;
+        position: relative;
+        top: 50%;
+        left: -110%;
+        right: 10%;
+        bottom: -250px
+    }
+    
+    #yearof {
+        color: white;
+        margin: 3px;
+        font-weight: "Noto Serif";
+        font-size: 5vh;
+        position: relative;
+        top: 50%;
+        left: 155%;
+        right: -10%;
+        bottom: -170px
+    }
+    
+    #status {
+        position: relative;
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background: #333;
+        font-size: 24px;
+        display: inline-block;
+        padding: 10px 15px;
+        border-radius: 3px;
+        position: relative;
+        top: 100%;
+        left: 60%;
+        right: 0;
+        bottom: 230px
+    }

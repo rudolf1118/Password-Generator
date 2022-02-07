@@ -35,6 +35,8 @@ window.onload = function() {
 function pas() {
     var length = 8;
     var password = ""
+    var status1 = ""
+    var status2 = ""
     var string = "abcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+~`|}{[];?><,./-=";
     for (var i = 0; i < length; i++) {
         var randomNumber = Math.floor(Math.random() * string.length)
@@ -42,11 +44,22 @@ function pas() {
 
     }
     document.getElementById("pass").value = password
+    var pass1 = password.split("");
+    var pass2 = [...new Set(pass1)];
+    if (pass1.join() != pass2.join()) {
+        status1 = "Simple"
+        document.getElementById("status").innerHTML = `Status -> ${status1}`
+    } else {
+        status2 = "Difficult"
+        document.getElementById("status").innerHTML = `Status -> ${status2}`
 
-}
+    }
 
-function myFunction() {
-    var copyText = document.getElementById("pass");
-    copyText.select();
-    document.execCommand("copy");
+    function myFunction() {
+        var copyText = document.getElementById("pass");
+        copyText.select();
+        document.execCommand("copy");
+
+
+    }
 }
